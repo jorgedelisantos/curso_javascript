@@ -7,15 +7,28 @@
     <title>Primeiro Passos com DOM</title>
     <style>
        body{
-        background-color: rgba(232, 71, 71, 0.512);
+        background-color: rgba(69, 20, 20, 0.512);
         color: white;
+        font-size: 1.6em;
        }
     </style>
 <body>
-    <h1>Iniciando Estudos com DOM</h1>
+    <h1>Iniciando Estudos DOM</h1>
     <p>Eu sou livre graças a Deus </p>
+    <p>Sou mais que vencedor,em Cristo jesus! 👐</p>
+    <div id="d"> Clique Aqui...</div>
     <script>
-       
+      //window.document.write(window.document.URL)
+      var p1 = window.document.getElementsByTagName('p')[0]
+     // var corpo = window.document.body
+     // window.document.write('Assim diz o senhor! ' + p1.innerText)
+     var dv = window.document.getElementById('d')
+      //corpo.style.background = 'black'
+      p1.style.color= 'green'
+      dv.style.background = 'blue'
+      //window.document.getElementById('d').innerText = 'ola..'
+      dv.innerText = ' Ola...'
+      
      </script> 
         
   
