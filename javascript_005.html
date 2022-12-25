@@ -23,7 +23,7 @@
     <p>Eu sou livre graças a Deus </p>
     <p>Sou mais que vencedor,em Cristo jesus! 👐</p>
 
-    <div id="d" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> Clique Aqui...</div>
+    <div id="d"> Clique Aqui...</div>
 
     <script>
       //window.document.write(window.document.URL)
@@ -41,18 +41,21 @@
      // dv.innerText = 'Ola!...'
 
      //***************************************************
-
-
        var div = window.document.getElementById('d')
+
+      div.addEventListener('click', clicar)
+      div.addEventListener('mouseenter', entrar)
+      div.addEventListener('mouseout', sair)
+     
       function clicar(){
-       div.innerText = 'clicou!'
+       div.innerText = 'Clicou!'
        div.style.background = 'green'
       }
         function entrar(){
-        div.innerText = 'entrou'
+        div.innerText = 'Entrou'
         }
         function sair(){
-            div.innerText = 'saiu'
+            div.innerText = 'Saiu'
             div.style.background = 'blue'
         }
      </script> 
