@@ -11,6 +11,7 @@ diaSemana
    Sábado  = 6
 */
 //console.log(diaSemana)
+// Não esquecer de colocar o BREEEAK!!!! KKKKKKKK
 
 switch(diaSemana){
 
