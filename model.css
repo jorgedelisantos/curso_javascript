@@ -7,8 +7,12 @@ header{
     color: white;
     text-align: center;
 }
+div{
+    text-align: center;
+    padding: 8px;
+}
 main{
-    background: #ffffffc9;
+    background: #ffffff63;
     width: 600px;
     height: 600px;
     margin:auto;
