@@ -17,27 +17,34 @@ if ( forano.value.length == 0 || forano.value > ano){
         genero = 'homem'
         if (idade >= 0 && idade < 10){
           //criança
-          img.setAttribute('src','/fotos_js/idadecrianca.png')
+        img.setAttribute('src','/fotos_js/idadecrianca.png')
         }else if(idade < 30){
           //jovem
-          img.setAttribute('src','/fotos_js/idadejovemhomem.jpg')
+         img.setAttribute('src','/fotos_js/idadejovemhomem.jpg')
+
         }else if(idade < 40){
             //adulto
-            img.setAttribute('src','/fotos_js/idadeadultohomem.png')
+         img.setAttribute('src','/fotos_js/idadeadultohomem.png')
+
         }else{
+         img.setAttribute('src','/fotos_js/idadeidoso.jpg')
             //idoso
-            img.setAttribute('src','/fotos_js/idadeidoso.jpg')
+         
         }
      }else if(formsex[1].checked){
         genero = 'mulher'
         if(idade >= 0 && idade < 10){
+            img.attributes('src','/fotos_js/mcrianca.png')
             //criança
-        }else if(idade > 21){
+        }else if(idade < 21){
+            img.attributes('src', '/fotos_js/')
             //jovem
-        }else if(idade > 50){
+        }else if(idade < 50){
+            img.attributes('src', '/fotos_js/')
             //adulto
         }else{
-            //idoso
+
+            //idosa
         }
      }
      res.innerHTML =  `detectamos ${genero} com ${idade} anos`
