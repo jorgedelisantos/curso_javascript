@@ -8,8 +8,15 @@ header{
     text-align: center;
 }
 div{
-    text-align: center;
+    background-color: beige;
+    text-align:center;
     padding: 8px;
+}
+#trico{
+    background-color: rgb(106, 176, 237);
+    margin:10px;
+    padding: 15px;
+  
 }
 main{
     background: #ffffff63;
@@ -33,6 +40,7 @@ section{
 }
 
 footer{
+    padding: 15px;
     color: white;
     text-align: center;
     font-style: italic;
