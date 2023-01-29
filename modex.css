@@ -1,17 +1,14 @@
 body{
-    background: rgba(0, 0, 255, 0.459);
+    background: rgba(4, 4, 204, 0.459);
     font: normal 1em arial;
 }
 input{
-    background-color: rgba(188, 184, 184, 0.278);
+    background-color: rgba(114, 113, 113, 0.278);
     border: 0px;
     padding: 5px;
     width:100px;
+    border-radius: 3px;
 }
-#selec1{
-    width: 200px;
-}
-
 header{
     color: white;
     text-align: center;
@@ -19,6 +16,17 @@ header{
 div{
     text-align:left;
     padding: 8px;
+}
+#resultado{
+    background-color: #cde0e0;
+    color: rgb(8, 8, 219);
+    border-radius: 10px;
+}
+#selec1{
+    border: none;
+    background-color: rgb(114, 113, 113, 0.278);
+    width: 200px;
+    padding: 15px;
 }
 section{
     background: white;
